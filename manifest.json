@@ -1,0 +1,18 @@
+{
+	"name": "Zichan",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "一键梭哈资产 by Nexnull",
+	"icons": {
+		"128": "img/128x128.png"
+	},
+	"browser_action": {
+		"default_title": "Zichan",
+		"default_icon": {
+			"128": "img/128x128.png"
+			},
+		"default_popup": "html/popup.html"
+	},
+	"permissions": [ "tabs", "contextMenus", "https://api.shodan.io/" ]
+   
+}

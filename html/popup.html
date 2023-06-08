@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/css/popup.css">
+  <script src="/js/popup.js"></script>
+  <link rel="stylesheet" href="https://static.shodan.io/font-awesome/css/font-awesome.min.css">
+</head>
+<body class="hidden">
+  <!-- 功能按钮 -->
+	<div class="container">
+		<h1 class="Title">
+      <!-- 该处是插件头部显示的内容，id为domain，js文件有一个onclick属性调用了该元素，并将其赋值给名为btnSearchTitle的变量 -->
+      PageTitle：<i class="logo-image"></i><span id="domain"></span> 
+		</h1>
+  </div>
+  <!-- 功能按钮 -->
+  <div class="buttons-wrapper">
+    <a id="btnSearchDomain" target="_blank">Domain</a>
+    &nbsp;&nbsp;&nbsp;
+
+    <a id="btnSearchIP" target="_blank">IP</a>
+    &nbsp;&nbsp;&nbsp;
+
+    <a id="btnSearchAll" target="_blank">All</a>
+<!--     &nbsp;&nbsp;&nbsp;
+    <a id="btnDomainDetails" target="_blank">View Domain Details</a> -->
+  </div>
+</body>
+</html>
